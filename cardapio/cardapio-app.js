@@ -1,15 +1,15 @@
-var requestURL = 'cardapio.json';
-var request = new XMLHttpRequest();
+const requestURL = 'cardapio.json';
+const  request = new XMLHttpRequest();
 request.open('GET', requestURL, true);
 request.responseType = 'json';
 request.send();
 request.onload = function(){
-  var dadosProdutos = request.response;
+  const  dadosProdutos = request.response;
   console.log(dadosProdutos);
   listarProdutos(dadosProdutos);
 }
-function numberToReal(numero) {
-  var numero = numero.toFixed(2).split('.');
+function numberToReal(value) {
+  const numero = value.toFixed(2).split('.');
   numero[0] = "R$ " + numero[0].split(/(?=(?:...)*$)/).join('.');
   return numero.join(',');
 }
@@ -27,7 +27,7 @@ function showProduct(produto){
       
       <img class = "product-photo" src = "${produto.img}">
       <h2>${produto.name}</h2>
-      <p>${produto.description}</p>
+      <p><font size = "4">${produto.description}</font></p>
       <p>A partir de <strong><font size = "5">${numberToReal(produto.Price)}</font></strong></p>
       <p>Ou <strong><font size = "5">${numberToReal(produto.PricePixMoney)}</font> no pix!</strong></p>
     </div>
@@ -36,9 +36,9 @@ function showProduct(produto){
 
 function listarProdutos(jsonObj){
 
-var minis = jsonObj.DonutsMinis;
-var tradicionais = jsonObj.DonutsTradicionais;
-var letras = jsonObj.DonutsEmLetras;
+const minis = jsonObj.DonutsMinis;
+const tradicionais = jsonObj.DonutsTradicionais;
+const letras = jsonObj.DonutsEmLetras;
 
 console.log(minis.map(showProduct));
 
@@ -54,5 +54,15 @@ ${letras.map(showProduct).join('')}
 }
 
 function cliqueProduto(nome, description, price, pricePixMoney, image, flavors){
-    alert(price,flavors);
+    const data = {
+      "nome": nome,
+      "description": description,
+      "price": price,
+      "pricePixMoney": pricePixMoney,
+      "image": image,
+      "flavors": flavors,
+    }
+    localStorage.setItem('data', data);
+    localStorage.setItem('title',data.nome);
+    window.open('./produtoSelecionado.html');
 };

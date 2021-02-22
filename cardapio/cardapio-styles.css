@@ -1,36 +1,52 @@
-body {
-    font-family: sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&display=swap'); /*font-family: 'Akaya Kanadaka', cursive;*/
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap'); /*font-family: 'Lobster', cursive;*/
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap'); /*font-family: 'Pacifico', cursive;*/
+
+body, html {
     color: #333;
     padding: 0;
     margin: 0;
   }
   
 .title{
-
+    border-radius: 25px;
+    align-content: center;
     text-align: center;
     font-weight: normal;
+    margin: 30px 25px;
+    padding: 4px;
+    background-color: pink;
     font-size: 3.0rem;
 }
 
 .titlecombo{
+    border-radius: 25px;
+    align-content: center;
     text-align: center;
     font-weight: normal;
     font-size: 2.0rem;
+    padding: 20px;
+    margin: 30px 20px;
+    background-color: pink;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, .1);
 }
 
 .product-photo {
+    border-radius: 25px;
     float: left;
-    width: 30%;
+    width: 40%;
     margin-right: 15px;
   }
 
 .cardapio{
-    margin: 80px 0;
+    font-family: 'Lobster', cursive;
+    margin: 0;
     text-align: center;
 }
 .product {
+    border-radius: 25px;
     display: inline-table;
-    max-width: 600px;
+    max-width: 550px;
     padding: 20px;
     margin: 30px 20px;
     background-color: #FEDBDB;
@@ -48,16 +64,13 @@ h1{
     text-align: center;
 }
 h2{
-    font-family: sans-serif;
+    font-family: 'Lobster', cursive;
 }
 
 #page-image {
     background-image: url("../fotos/background.jpg");
     background-size: auto;
     background-position: center;
-    background-size: 100%;
-    /* position: relative; */
-    margin: 0;
 }
 
 #menu {
