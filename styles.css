@@ -13,10 +13,6 @@
     font-family: Monteserrat, sans-serif;
 }
 
-html, body {
-    margin: 0;
-    padding: 0;
-}
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 768px) {
     #page-image {
@@ -32,59 +28,27 @@ html, body {
         padding: 10%;
     }
 
-
-
-    #menu {
-        padding: 0.3em;
-        opacity: 0.7;
-        background-color: pink;
-
-    }
-
-    #menu ul {
-        display: flex;
-        list-style: none;
-        justify-content: space-around;
-        align-items: center;
-
-    }
-    #menu img {
-        width: 4em;
-    }
-
-    #menu ul li:hover { 
-        /* text-align: center; */
-        /* display: flex; */
-        /* background-color: white; */
-    }
-
-    #menu ul li a {
+    #text-inside-image button {
+        /* background-color: pink;
+        border-radius: 30%;
+        font-size: 16px;
+        margin: 4px 2px; */
+        background: #FB3FDE;
+        border-radius: 30px;
+        color: #fff;
+        display: inline-block;
+        font-family: sans-serif;
+        padding: 15px 20px 14px;
         text-decoration: none;
         text-transform: uppercase;
-        color: black;
-        font-size: large;
+        margin-top: 10px;
+        transition: all 0.2s ease;
+    }
+    #text-inside-image button{
+        cursor: pointer;
     }
 
-    #menu ul li a:hover {
-        color:white;
-    }
-
-    footer {
-        height: 3em;
-        background-color: #303030;
-        position: absolute;
-        bottom: 0;
-        /* display: block; */
-        width: 100%;
-        /* margin-bottom: 0; */
-    }
-
-    footer h4 {
-        color: #ffd9af;
-    }
 }
-
-
 /* Extra small devices (phones, 600px and down) */
 /* @media only screen and (max-width: 600px) {...} */
 
