@@ -1,0 +1,1 @@
+document.title = JSON.stringify(localStorage.getItem('title'));

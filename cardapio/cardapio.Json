@@ -1,6 +1,6 @@
 {
-    "DonutsMinis(Combos)":{
-      "6Minis":{
+    "DonutsMinis":[
+      {
         "name": "6 Minis",
         "description": "Os queridinhos mini donuts com 60g! Excelente opção caso queira experimentar vários sabores ou deixar sua festa mais adocicada! ♥",
         "flavors": [
@@ -16,9 +16,9 @@
         ],
         "PricePixMoney": 18.00,
         "Price": 19.00, 
-        "img": "./fotos/6minis.jpeg"
+        "img": "../fotos/6minis.jpeg"
       },
-      "9Minis": {
+      {
         "name": "9 Minis",
         "description": "Os queridinhos mini donuts com 60g! Excelente opção caso queira experimentar vários sabores ou deixar sua festa mais adocicada! ♥",
         "flavors": [
@@ -34,9 +34,9 @@
        ],
         "PricePixMoney": 27.00,
         "Price": 28.00,
-        "img": "./fotos/9minis.jpeg"
+        "img": "../fotos/9minis.jpeg"
       },
-      "12Minis": {
+      {
         "name": "12 Minis",
         "description": "Os queridinhos mini donuts com 60g! Excelente opção caso queira experimentar vários sabores ou deixar sua festa mais adocicada! ♥",
         "flavors": [
@@ -52,9 +52,9 @@
        ],
         "PricePixMoney": 36.00,
         "Price": 37.00,
-        "img": "./fotos/12minis.jpeg"
+        "img": "../fotos/12minis.jpeg"
       },
-      "18Minis": {
+      {
         "name": "18 Minis",
         "description": "Os queridinhos mini donuts com 60g! Excelente opção caso queira experimentar vários sabores ou deixar sua festa mais adocicada! ♥",
         "flavors": [
@@ -70,9 +70,9 @@
        ],
         "PricePixMoney": 54.00,
         "Price": 55.00,
-        "img": "./fotos/18minis.jpeg"
+        "img": "../fotos/18minis.jpeg"
       },
-      "24Minis": {
+      {
         "name": "24 Minis",
         "description": "Os queridinhos mini donuts com 60g! Excelente opção caso queira experimentar vários sabores ou deixar sua festa mais adocicada! ♥",
         "flavors": [
@@ -88,9 +88,9 @@
        ],
         "PricePixMoney": 72.00,
         "Price": 73.00,
-        "img": "./fotos/24minis.jpeg"
+        "img": "../fotos/24minis.jpeg"
       },
-      "30Minis": {
+      {
         "name": "30 Minis",
         "description": "Os queridinhos mini donuts com 60g! Excelente opção caso queira experimentar vários sabores ou deixar sua festa mais adocicada! ♥",
         "flavors": [
@@ -106,9 +106,9 @@
        ],
         "PricePixMoney": 90.00,
         "Price": 91.00,
-        "img": "./fotos/30minis.jpeg"
+        "img": "../fotos/30minis.jpeg"
       },
-      "36Minis": {
+      {
         "name": "36 Minis",
         "description": "Os queridinhos mini donuts com 60g! Excelente opção caso queira experimentar vários sabores ou deixar sua festa mais adocicada! ♥",
         "flavors": [
@@ -124,11 +124,11 @@
        ],
         "PricePixMoney": 108.00,
         "Price": 109.00,
-        "img": "./fotos/36minis.jpeg"
+        "img": "../fotos/36minis.jpeg"
       }
-    },
-    "DonutsTradicionais(Combos)":{    
-      "3Tradicionais": {
+    ],
+    "DonutsTradicionais":[    
+      {
         "name": "3 Tradicionais",
         "description": "Deliciosos donuts em tamanho tradicional, pesando a unidade 110g de puro amor! ♥",
         "flavors": [
@@ -144,9 +144,9 @@
        ],
         "PricePixMoney": 15.00,
         "Price": 16.00,
-        "img": "./fotos/3tradicionais.jpeg"
+        "img": "../fotos/3tradicionais.jpeg"
       },
-      "6Tradicionais": {
+      {
         "name": "6 Tradicionais",
         "description": "Deliciosos donuts em tamanho tradicional, pesando a unidade 110g de puro amor! ♥",
         "flavors": [
@@ -162,9 +162,9 @@
        ],
         "PricePixMoney": 30.00,
         "Price": 31.00,
-        "img": "./fotos/6tradicionais.jpeg"
+        "img": "../fotos/6tradicionais.jpeg"
       }, 
-      "9Tradicionais": {
+      {
         "name": "9 Tradicionais",
         "description": "Deliciosos donuts em tamanho tradicional, pesando a unidade 110g de puro amor! ♥",
         "flavors": [
@@ -180,9 +180,9 @@
        ],
         "PricePixMoney": 45.00,
         "Price": 46.00,
-        "img": "./fotos/9tradicionais.jpeg"
+        "img": "../fotos/9tradicionais.jpeg"
       },     
-      "12Tradicionais": {
+      {
         "name": "12 Tradicionais",
         "description": "Deliciosos donuts em tamanho tradicional, pesando a unidade 110g de puro amor! ♥",
         "flavors": [
@@ -198,9 +198,9 @@
        ],
         "PricePixMoney": 60.00,
         "Price": 61.00,
-        "img": "./fotos/12tradicionais.jpeg"
+        "img": "../fotos/12tradicionais.jpeg"
       },
-      "15Tradicionais": {
+      {
         "name": "15 Tradicionais",
         "description": "Deliciosos donuts em tamanho tradicional, pesando a unidade 110g de puro amor! ♥",
         "flavors": [
@@ -216,9 +216,9 @@
        ],
         "PricePixMoney": 75.00,
         "Price": 76.00,
-        "img": "./fotos/15tradicionais.jpeg"
+        "img": "../fotos/15tradicionais.jpeg"
       },
-      "18Tradicionais": {
+      {
         "name": "18 Tradicionais",
         "description": "Deliciosos donuts em tamanho tradicional, pesando a unidade 110g de puro amor! ♥",
         "flavors": [
@@ -234,12 +234,12 @@
        ],
         "PricePixMoney": 90.00,
         "Price": 91.00,
-        "img": "./fotos/18tradicionais.jpeg"
+        "img": "../fotos/18tradicionais.jpeg"
       }    
-    },
-    "DonutsEmLetras(Combos)": {      
-      "3a6Letras": {
-        "name": "3 á 6 Letras",
+    ],
+    "DonutsEmLetras":[      
+      {
+        "name": "3 a 6 Letras",
         "description": "Personalize do seu jeito! Selecione a quantidade de donuts desejada e adicione nas observações quais serão as LETRAS, NÚMEROS, FLORES OU CORAÇÃO. (Disponíveis 3 sabores para essa opção). ♥",
         "flavors": [
           "Brigadeiro",
@@ -260,9 +260,9 @@
        },
         "PricePixMoney": 16.50,
         "Price": 17.50,
-        "img": "./fotos/3letras.jpeg"
+        "img": "../fotos/3letras.jpeg"
       } ,   
-      "7a10Letras": {
+      {
         "name": "7 a 10 Letras",
         "description": "Personalize do seu jeito! Selecione a quantidade de donuts desejada e adicione nas observações quais serão as LETRAS, NÚMEROS, FLORES OU CORAÇÃO. (Disponíveis 7 sabores para essa opção) ♥",
         "flavors": [
@@ -284,10 +284,10 @@
        },
         "PricePixMoney": 38.50,
         "Price": 39.50,
-        "img": "./fotos/7letras.jpeg"
+        "img": "../fotos/7letras.jpeg"
       },    
-      "11a15Letras": {
-        "name": "11 á 15 letras",
+      {
+        "name": "11 a 15 letras",
         "description": "Personalize do seu jeito! Selecione a quantidade de donuts desejada e adicione nas observações quais serão as LETRAS, NÚMEROS, FLORES OU CORAÇÃO. (Disponíveis 8 sabores para essa opção) ♥",
         "flavors": [
           "Brigadeiro",
@@ -309,7 +309,7 @@
        },
         "PricePixMoney": 60.50,
         "Price": 61.50,
-        "img": "./fotos/11letras.jpeg"
+        "img": "../fotos/11letras.jpeg"
       }
-    }
-  }
+    ]
+}
