@@ -1,4 +1,4 @@
-const requestURL = 'https://raw.githubusercontent.com/elissandro13/donut/main/cardapio/cardapio.Json?token=ARCVJ36NFDNHECPKRJQZJVTAHWGQ6';
+const requestURL = './cardapio.json';
 const  request = new XMLHttpRequest();
 request.open('GET', requestURL, true);
 request.responseType = 'json';
