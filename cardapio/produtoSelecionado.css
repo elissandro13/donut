@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&display=swap'); /*font-family: 'Akaya Kanadaka', cursive;*/
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap'); /*font-family: 'Lobster', cursive;*/
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap'); /*font-family: 'Pacifico', cursive;*/
+ 
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+}
+h2 {
+    font-family: 'Lobster', cursive;
+}
+
+.title {
+    border-radius: 25px;
+    align-content: center;
+    text-align: center;
+    font-weight: normal;
+    margin: 30px 25px;
+    padding: 4px;
+    background-color: pink;
+    font-size: 3.0rem;
+    font-family: 'Lobster', cursive;
+}
+
+.cardapio {
+    font-family: 'Lobster', cursive;
+    margin: 0;
+    text-align: center;
+}
+
+.product:hover {
+    cursor: pointer;
+    background-color: pink;
+}
+
+body {
+    background-image: url("../fotos/background.jpg");
+    background-size: auto;
+    background-position: center;
+}
+
+.productescolhido {
+    border-radius: 25px;
+    display: inline-table;
+    max-width: 1000px;
+    padding: 20px;
+    margin: 30px 20px;
+    background-color: #FEDBDB;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, .1);
+    overflow: hidden;
+    transition: all 0.2s ease;
+}
+
+.escolhidofoto {
+    border-radius: 25px;
+    float: left;
+    width: 35%;
+    margin-right: 15px;
+}
+
+p{
+    font-family: 'Lobster', cursive;
+    text-align: center;
+}
+
+.btn button{
+    box-shadow: none;
+    background-color: pink;
+
+}

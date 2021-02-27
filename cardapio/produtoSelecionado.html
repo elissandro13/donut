@@ -4,10 +4,28 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="produtoSelecionado.js"></script>
+    <link rel="stylesheet" type="text/css" href="produtoSelecionado.css">
+    <link rel="stylesheet" type="text/css" href="../styleshf.css">
     <title></title>
 </head>
 <body>
-    
+     
+    <div id="imagemfundo">
+        <nav id="menu">
+            <ul>
+                <li><img src="../fotos/isa_logo.jpg" alt=""></li>
+                <li><a href="../index.html" onclick="localStorage.removeItem('data');localStorage.removeItem('title');">Página Inicial</a></li>
+                <li><a href="#">Cardápio</a></li>
+                <li><a href="#footer">Entrega</a></li>
+                <li><a href="#footer">Quem Somos</a></li>
+                <li><a href="#footer">Contato</a></li>
+            </ul>
+        </nav>
+        <div class="produtoselecionado" id="produtoselecionado"> 
+        </div>
+        
+        <script src="produtoSelecionado.js"></script>
+      
+    </div>
 </body>
 </html>

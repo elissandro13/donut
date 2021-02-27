@@ -64,5 +64,10 @@ function cliqueProduto(nome, description, price, pricePixMoney, image, flavors){
     }
     localStorage.setItem('data', data);
     localStorage.setItem('title',data.nome);
+    localStorage.setItem('description',data.description);
+    localStorage.setItem('price',data.price);
+    localStorage.setItem('pricePixMoney',data.pricePixMoney);
+    localStorage.setItem('image',data.image);
+    localStorage.setItem('flavors',data.flavors);
     window.open('./produtoSelecionado.html');
 };
