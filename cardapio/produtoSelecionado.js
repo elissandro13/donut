@@ -31,11 +31,15 @@ function selectionflavors(){
   const flavors =localStorage.getItem('flavors')
   const splittedString = flavors.split(/,(?! )/)
   return `
-  <p> 
-  ${splittedString[0]}
-  <button class="btn" type="button"> + <span class="badge"> 0 </span>
- </button>
-  </p>
+  <p>${splittedString[0]}<button class="btn" type="button"> + <span class="badge"> 0 </span></button></p>
+  <p>${splittedString[1]}<button class="btn" type="button"> + <span class="badge"> 0 </span></button></p>
+  <p>${splittedString[2]}<button class="btn" type="button"> + <span class="badge"> 0 </span></button></p>
+  <p>${splittedString[3]}<button class="btn" type="button"> + <span class="badge"> 0 </span></button></p>
+  <p>${splittedString[4]}<button class="btn" type="button"> + <span class="badge"> 0 </span></button></p>
+  <p>${splittedString[5]}<button class="btn" type="button"> + <span class="badge"> 0 </span></button></p>
+  <p>${splittedString[6]}<button class="btn" type="button"> + <span class="badge"> 0 </span></button></p>
+  <p>${splittedString[7]}<button class="btn" type="button"> + <span class="badge"> 0 </span></button></p>
+  <p>${splittedString[8]}<button class="btn" type="button"> + <span class="badge"> 0 </span></button></p>
   `
 }
   var contador = document.querySelector('.badge');
