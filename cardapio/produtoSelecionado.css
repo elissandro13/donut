@@ -50,17 +50,17 @@ body {
     display: inline-table;
     max-width: 1000px;
     padding: 20px;
-    margin: 30px 20px;
-    background-color: #FEDBDB;
+    margin: 30px 220px;
+    background-color:  #FEDBDB;
     box-shadow: 3px 3px 3px rgba(0, 0, 0, .1);
-    overflow: hidden;
+    overflow:hidden;
     transition: all 0.2s ease;
 }
 
 .escolhidofoto {
     border-radius: 25px;
     float: left;
-    width: 35%;
+    width: 40%;
     margin-right: 15px;
 }
 
@@ -69,8 +69,33 @@ p{
     text-align: center;
 }
 
-.btn button{
+button{
     box-shadow: none;
-    background-color: pink;
+    background-color: #facfcf;
+
+}
+input[type=number]{ border-radius:4px;
+    text-align: center;
+    -moz-border-radius:4px;
+    -webkit-border-radius:4px;
+    box-shadow: 1px 1px 2px pink;
+    -moz-box-shadow: 1px 1px 2px pink;
+    -webkit-box-shadow: 1px 1px 2px pink;
+    background: #facfcf; 
+    border:1px solid pink;
+    width: 35px;
+    margin: 5px;
+}
+input[type=submit]{ border-radius:4px;
+    text-align: center;
+    -moz-border-radius:4px;
+    -webkit-border-radius:4px;
+    box-shadow: 1px 1px 2px pink;
+    -moz-box-shadow: 1px 1px 2px pink;
+    -webkit-box-shadow: 1px 1px 2px pink;
+    background: #facfcf; 
+    border:1px solid pink;
+    width: 60px;
+   margin:20px 230px;
 
 }
