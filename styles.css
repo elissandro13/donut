@@ -29,7 +29,7 @@
     }
 
     #text-inside-image {
-        text-align: center;;
+        text-align: center;
         padding: 10%;
     }
 
@@ -54,37 +54,6 @@
     }
 
 }
-<<<<<<< Updated upstream
-=======
-
-#text-inside-image {
-    text-align: center;
-    ;
-    padding: 10%;
-}
-
-#text-inside-image button {
-    /* background-color: pink;
-    border-radius: 30%;
-    font-size: 16px;
-    margin: 4px 2px; */
-    background: #FB3FDE;
-    border-radius: 30px;
-    color: #fff;
-    display: inline-block;
-    font-family: sans-serif;
-    padding: 15px 20px 14px;
-    text-decoration: none;
-    text-transform: uppercase;
-    margin-top: 10px;
-    transition: all 0.2s ease;
-}
-
-#text-inside-image button {
-    cursor: pointer;
-}
-
->>>>>>> Stashed changes
 /* Extra small devices (phones, 600px and down) */
 
 /* @media only screen and (max-width: 600px) {...} */
