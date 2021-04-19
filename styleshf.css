@@ -21,16 +21,19 @@
     #menu ul li .fa-bars {
         display: none;
     }
+
 }
 
 .footer {
     background-color: #303030;
     margin-bottom: 0;
     bottom: 0;
+    position: absolute;
     width: 100%;
+    padding: 10px;
 }
 
-footer h4 {
+.footer h4 {
     padding: 1em;
     color: #ffd9af;
 }
@@ -71,6 +74,7 @@ footer h4 {
     justify-content: space-around;
     align-items: center;
 }
+
 #menu img {
     width: 4em;
 }
