@@ -1,9 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&display=swap'); /*font-family: 'Akaya Kanadaka', cursive;*/
-@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap'); /*font-family: 'Lobster', cursive;*/
-@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap'); /*font-family: 'Pacifico', cursive;*/
-@import url('https://fonts.googleapis.com/css2?family=Oi&display=swap'); /*font-family: 'Oi', cursive;*/
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&display=swap');
+/*font-family: 'Akaya Kanadaka', cursive;*/
 
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+/*font-family: 'Lobster', cursive;*/
 
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+/*font-family: 'Pacifico', cursive;*/
+
+@import url('https://fonts.googleapis.com/css2?family=Oi&display=swap');
+/*font-family: 'Oi', cursive;*/
 
 * {
     margin: 0;
@@ -14,47 +19,49 @@
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 768px) {
+    #page-image {
+        background-image: url("fotos/donut.jpg");
+        background-size: cover;
+        background-position: center;
+        background-size: 100%;
+        /* position: relative; */
+    }
 
-#page-image {
-    background-image: url("fotos/donut.jpg");
-    background-size: cover;
-    background-position: center;
-    background-size: 100%;
-    /* position: relative; */
-}
+    #text-inside-image {
+        text-align: center;
+        padding: 10%;
+    }
 
-#text-inside-image {
-    text-align: center;;
-    padding: 10%;
-}
-
-#text-inside-image button {
-    /* background-color: pink;
-    border-radius: 30%;
-    font-size: 16px;
-    margin: 4px 2px; */
-    background: #FB3FDE;
-    border-radius: 30px;
-    color: #fff;
-    display: inline-block;
-    font-family: sans-serif;
-    padding: 15px 20px 14px;
-    text-decoration: none;
-    text-transform: uppercase;
-    margin-top: 10px;
-    transition: all 0.2s ease;
-}
-#text-inside-image button{
-    cursor: pointer;
-}
+    #text-inside-image button {
+        /* background-color: pink;
+        border-radius: 30%;
+        font-size: 16px;
+        margin: 4px 2px; */
+        background: #FB3FDE;
+        border-radius: 30px;
+        color: #fff;
+        display: inline-block;
+        font-family: sans-serif;
+        padding: 15px 20px 14px;
+        text-decoration: none;
+        text-transform: uppercase;
+        margin-top: 10px;
+        transition: all 0.2s ease;
+    }
+    #text-inside-image button{
+        cursor: pointer;
+    }
 
 
 /* Extra small devices (phones, 600px and down) */
+
 /* @media only screen and (max-width: 600px) {...} */
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
+
 /* @media only screen and (min-width: 600px) {...} */
 
 /* Medium devices (landscape tablets, 768px and up) */
-/* @media only screen and (min-width: 768px) {...} */
 
+/* @media only screen and (min-width: 768px) {...} */
