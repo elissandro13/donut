@@ -1,13 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="produtoSelecionado.js"></script>
-    <title></title>
+    <link rel="stylesheet" type="text/css" href="produto-styles.css">
+    <link rel="stylesheet" type="text/css" href="../styleshf.css">
+    <title>Isa Donuts</title>
 </head>
+
 <body>
-    
+
+    <div id="imagemfundo">
+
+        <nav id="menu">
+            <ul>
+                <li><img src="../fotos/isa_logo.jpg" alt=""></li>
+                <li><a href="../index.html" onclick="localStorage.removeItem('data');">Página Inicial</a></li>
+                <li><a href="./cardapio.html" onclick="localStorage.removeItem('data');">Cardápio</a></li>
+                <li><a href="#footer">Entrega</a></li>
+                <li><a href="#footer">Quem Somos</a></li>
+                <li><a href="#footer">Contato</a></li>
+            </ul>
+        </nav>
+
+        <div id="caixa-customizacao">
+
+            <div id="banner-produto"></div>
+            <div id="opcoes-obrigatorias"></div>
+            <div id="opcoes-nao-obrigatorias">
+                <div id="opcao-presente"></div>
+                <div id="observacao"></div>
+            </div>
+        </div>
+
+        <script src="produtoSelecionado.js"></script>
+
+    </div>
+
+    <footer id="footer">
+        <h4>Contate-nos</h4>
+    </footer>
 </body>
+
 </html>

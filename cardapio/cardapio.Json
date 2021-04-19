@@ -1,315 +1,530 @@
 {
-    "DonutsMinis":[
-      {
-        "name": "6 Minis",
-        "description": "Os queridinhos mini donuts com 60g! Excelente opção caso queira experimentar vários sabores ou deixar sua festa mais adocicada! ♥",
-        "flavors": [
-           "Brigadeiro",
-           "Marshmellow",
-           "Chocolate Branco",
-           "Homer",
-           "Paçoca",
-           "Leite Ninho",
-           "Óreo",
-           "Nutela",
-           "Especial da Semana"
-        ],
-        "PricePixMoney": 18.00,
-        "Price": 19.00, 
-        "img": "../fotos/6minis.jpeg"
-      },
-      {
-        "name": "9 Minis",
-        "description": "Os queridinhos mini donuts com 60g! Excelente opção caso queira experimentar vários sabores ou deixar sua festa mais adocicada! ♥",
-        "flavors": [
-          "Brigadeiro",
-          "Marshmellow",
-          "Chocolate Branco",
-          "Homer",
-          "Paçoca",
-          "Leite Ninho",
-          "Óreo",
-          "Nutela",
-          "Especial da Semana"
-       ],
-        "PricePixMoney": 27.00,
-        "Price": 28.00,
-        "img": "../fotos/9minis.jpeg"
-      },
-      {
-        "name": "12 Minis",
-        "description": "Os queridinhos mini donuts com 60g! Excelente opção caso queira experimentar vários sabores ou deixar sua festa mais adocicada! ♥",
-        "flavors": [
-          "Brigadeiro",
-          "Marshmellow",
-          "Chocolate Branco",
-          "Homer",
-          "Paçoca",
-          "Leite Ninho",
-          "Óreo",
-          "Nutela",
-          "Especial da Semana"
-       ],
-        "PricePixMoney": 36.00,
-        "Price": 37.00,
-        "img": "../fotos/12minis.jpeg"
-      },
-      {
-        "name": "18 Minis",
-        "description": "Os queridinhos mini donuts com 60g! Excelente opção caso queira experimentar vários sabores ou deixar sua festa mais adocicada! ♥",
-        "flavors": [
-          "Brigadeiro",
-          "Marshmellow",
-          "Chocolate Branco",
-          "Homer",
-          "Paçoca",
-          "Leite Ninho",
-          "Óreo",
-          "Nutela",
-          "Especial da Semana"
-       ],
-        "PricePixMoney": 54.00,
-        "Price": 55.00,
-        "img": "../fotos/18minis.jpeg"
-      },
-      {
-        "name": "24 Minis",
-        "description": "Os queridinhos mini donuts com 60g! Excelente opção caso queira experimentar vários sabores ou deixar sua festa mais adocicada! ♥",
-        "flavors": [
-          "Brigadeiro",
-          "Marshmellow",
-          "Chocolate Branco",
-          "Homer",
-          "Paçoca",
-          "Leite Ninho",
-          "Óreo",
-          "Nutela",
-          "Especial da Semana"
-       ],
-        "PricePixMoney": 72.00,
-        "Price": 73.00,
-        "img": "../fotos/24minis.jpeg"
-      },
-      {
-        "name": "30 Minis",
-        "description": "Os queridinhos mini donuts com 60g! Excelente opção caso queira experimentar vários sabores ou deixar sua festa mais adocicada! ♥",
-        "flavors": [
-          "Brigadeiro",
-          "Marshmellow",
-          "Chocolate Branco",
-          "Homer",
-          "Paçoca",
-          "Leite Ninho",
-          "Óreo",
-          "Nutela",
-          "Especial da Semana"
-       ],
-        "PricePixMoney": 90.00,
-        "Price": 91.00,
-        "img": "../fotos/30minis.jpeg"
-      },
-      {
-        "name": "36 Minis",
-        "description": "Os queridinhos mini donuts com 60g! Excelente opção caso queira experimentar vários sabores ou deixar sua festa mais adocicada! ♥",
-        "flavors": [
-          "Brigadeiro",
-          "Marshmellow",
-          "Chocolate Branco",
-          "Homer",
-          "Paçoca",
-          "Leite Ninho",
-          "Óreo",
-          "Nutela",
-          "Especial da Semana"
-       ],
-        "PricePixMoney": 108.00,
-        "Price": 109.00,
-        "img": "../fotos/36minis.jpeg"
-      }
-    ],
-    "DonutsTradicionais":[    
-      {
-        "name": "3 Tradicionais",
-        "description": "Deliciosos donuts em tamanho tradicional, pesando a unidade 110g de puro amor! ♥",
-        "flavors": [
-          "Brigadeiro",
-          "Marshmellow",
-          "Chocolate Branco",
-          "Homer",
-          "Paçoca",
-          "Leite Ninho",
-          "Óreo",
-          "Nutela",
-          "Especial da Semana"
-       ],
-        "PricePixMoney": 15.00,
-        "Price": 16.00,
-        "img": "../fotos/3tradicionais.jpeg"
-      },
-      {
-        "name": "6 Tradicionais",
-        "description": "Deliciosos donuts em tamanho tradicional, pesando a unidade 110g de puro amor! ♥",
-        "flavors": [
-          "Brigadeiro",
-          "Marshmellow",
-          "Chocolate Branco",
-          "Homer",
-          "Paçoca",
-          "Leite Ninho",
-          "Óreo",
-          "Nutela",
-          "Especial da Semana"
-       ],
-        "PricePixMoney": 30.00,
-        "Price": 31.00,
-        "img": "../fotos/6tradicionais.jpeg"
-      }, 
-      {
-        "name": "9 Tradicionais",
-        "description": "Deliciosos donuts em tamanho tradicional, pesando a unidade 110g de puro amor! ♥",
-        "flavors": [
-          "Brigadeiro",
-          "Marshmellow",
-          "Chocolate Branco",
-          "Homer",
-          "Paçoca",
-          "Leite Ninho",
-          "Óreo",
-          "Nutela",
-          "Especial da Semana"
-       ],
-        "PricePixMoney": 45.00,
-        "Price": 46.00,
-        "img": "../fotos/9tradicionais.jpeg"
-      },     
-      {
-        "name": "12 Tradicionais",
-        "description": "Deliciosos donuts em tamanho tradicional, pesando a unidade 110g de puro amor! ♥",
-        "flavors": [
-          "Brigadeiro",
-          "Marshmellow",
-          "Chocolate Branco",
-          "Homer",
-          "Paçoca",
-          "Leite Ninho",
-          "Óreo",
-          "Nutela",
-          "Especial da Semana"
-       ],
-        "PricePixMoney": 60.00,
-        "Price": 61.00,
-        "img": "../fotos/12tradicionais.jpeg"
-      },
-      {
-        "name": "15 Tradicionais",
-        "description": "Deliciosos donuts em tamanho tradicional, pesando a unidade 110g de puro amor! ♥",
-        "flavors": [
-          "Brigadeiro",
-          "Marshmellow",
-          "Chocolate Branco",
-          "Homer",
-          "Paçoca",
-          "Leite Ninho",
-          "Óreo",
-          "Nutela",
-          "Especial da Semana"
-       ],
-        "PricePixMoney": 75.00,
-        "Price": 76.00,
-        "img": "../fotos/15tradicionais.jpeg"
-      },
-      {
-        "name": "18 Tradicionais",
-        "description": "Deliciosos donuts em tamanho tradicional, pesando a unidade 110g de puro amor! ♥",
-        "flavors": [
-          "Brigadeiro",
-          "Marshmellow",
-          "Chocolate Branco",
-          "Homer",
-          "Paçoca",
-          "Leite Ninho",
-          "Óreo",
-          "Nutela",
-          "Especial da Semana"
-       ],
-        "PricePixMoney": 90.00,
-        "Price": 91.00,
-        "img": "../fotos/18tradicionais.jpeg"
-      }    
-    ],
-    "DonutsEmLetras":[      
-      {
-        "name": "3 a 6 Letras",
-        "description": "Personalize do seu jeito! Selecione a quantidade de donuts desejada e adicione nas observações quais serão as LETRAS, NÚMEROS, FLORES OU CORAÇÃO. (Disponíveis 3 sabores para essa opção). ♥",
-        "flavors": [
-          "Brigadeiro",
-          "Marshmellow",
-          "Chocolate Branco",
-          "Homer",
-          "Paçoca",
-          "Leite Ninho",
-          "Óreo",
-          "Nutela",
-          "Especial da Semana"
-       ],
-       "letters": {
-         "3 Letras": 16.50,
-         "4 Letras": 22.00,
-         "5 Letras": 27.50,
-         "6 Letras": 33.00 
-       },
-        "PricePixMoney": 16.50,
-        "Price": 17.50,
-        "img": "../fotos/3letras.jpeg"
-      } ,   
-      {
-        "name": "7 a 10 Letras",
-        "description": "Personalize do seu jeito! Selecione a quantidade de donuts desejada e adicione nas observações quais serão as LETRAS, NÚMEROS, FLORES OU CORAÇÃO. (Disponíveis 7 sabores para essa opção) ♥",
-        "flavors": [
-          "Brigadeiro",
-          "Marshmellow",
-          "Chocolate Branco",
-          "Homer",
-          "Paçoca",
-          "Leite Ninho",
-          "Óreo",
-          "Nutela",
-          "Especial da Semana"
-       ],
-       "letters": {
-         "7 Letras": 38.50,
-         "8 Letras": 44.00,
-         "9 Letras": 49.50,
-         "10 Letras": 55.00 
-       },
-        "PricePixMoney": 38.50,
-        "Price": 39.50,
-        "img": "../fotos/7letras.jpeg"
-      },    
-      {
-        "name": "11 a 15 letras",
-        "description": "Personalize do seu jeito! Selecione a quantidade de donuts desejada e adicione nas observações quais serão as LETRAS, NÚMEROS, FLORES OU CORAÇÃO. (Disponíveis 8 sabores para essa opção) ♥",
-        "flavors": [
-          "Brigadeiro",
-          "Marshmellow",
-          "Chocolate Branco",
-          "Homer",
-          "Paçoca",
-          "Leite Ninho",
-          "Óreo",
-          "Nutela",
-          "Especial da Semana"
-       ],
-       "letters": {
-         "11 Letras": 60.50,
-         "12 Letras": 66.00,
-         "13 Letras": 71.50,
-         "14 Letras": 77.00,
-         "15 Letras": 82.50  
-       },
-        "PricePixMoney": 60.50,
-        "Price": 61.50,
-        "img": "../fotos/11letras.jpeg"
-      }
-    ]
+  "DonutsMinis": [
+    {
+      "name": "6 Minis",
+      "description": "Os queridinhos mini donuts com 60g! Excelente opção caso queira experimentar vários sabores ou deixar sua festa mais adocicada! ♥",
+      "flavors": [
+        "Brigadeiro",
+        "Marshmellow",
+        "Chocolate Branco",
+        "Homer",
+        "Paçoca",
+        "Leite Ninho",
+        "Óreo",
+        "Nutela",
+        "Ovomaltine",
+        "Especial da Semana"
+      ],
+      "flavorsPrices": [
+        "10",
+        "10",
+        "10",
+        "10",
+        "10",
+        "10",
+        "10",
+        "10",
+        "10",
+        "10"
+      ],
+      "PricePixMoney": 18.00,
+      "Price": 19.00,
+      "img": "../fotos/6minis.jpeg"
+    },
+    {
+      "name": "9 Minis",
+      "description": "Os queridinhos mini donuts com 60g! Excelente opção caso queira experimentar vários sabores ou deixar sua festa mais adocicada! ♥",
+      "flavors": [
+        "Brigadeiro",
+        "Marshmellow",
+        "Chocolate Branco",
+        "Homer",
+        "Paçoca",
+        "Leite Ninho",
+        "Óreo",
+        "Nutela",
+        "Ovomaltine",
+        "Especial da Semana"
+      ],
+      "flavorsPrices": [
+        "10",
+        "10",
+        "10",
+        "10",
+        "10",
+        "10",
+        "10",
+        "10",
+        "10",
+        "10"
+      ],
+      "PricePixMoney": 27.00,
+      "Price": 28.00,
+      "img": "../fotos/9minis.jpeg"
+    },
+    {
+      "name": "12 Minis",
+      "description": "Os queridinhos mini donuts com 60g! Excelente opção caso queira experimentar vários sabores ou deixar sua festa mais adocicada! ♥",
+      "flavors": [
+        "Brigadeiro",
+        "Marshmellow",
+        "Chocolate Branco",
+        "Homer",
+        "Paçoca",
+        "Leite Ninho",
+        "Óreo",
+        "Nutela",
+        "Ovomaltine",
+        "Especial da Semana"
+      ],
+      "PricePixMoney": 36.00,
+      "Price": 37.00,
+      "img": "../fotos/12minis.jpeg"
+    },
+    {
+      "name": "18 Minis",
+      "description": "Os queridinhos mini donuts com 60g! Excelente opção caso queira experimentar vários sabores ou deixar sua festa mais adocicada! ♥",
+      "flavors": [
+        "Brigadeiro",
+        "Marshmellow",
+        "Chocolate Branco",
+        "Homer",
+        "Paçoca",
+        "Leite Ninho",
+        "Óreo",
+        "Nutela",
+        "Ovomaltine",
+        "Especial da Semana"
+      ],
+      "flavorsPrices": [
+        "10",
+        "10",
+        "10",
+        "10",
+        "10",
+        "10",
+        "10",
+        "10",
+        "10",
+        "10"
+      ],
+      "PricePixMoney": 54.00,
+      "Price": 55.00,
+      "img": "../fotos/18minis.jpeg"
+    },
+    {
+      "name": "24 Minis",
+      "description": "Os queridinhos mini donuts com 60g! Excelente opção caso queira experimentar vários sabores ou deixar sua festa mais adocicada! ♥",
+      "flavors": [
+        "Brigadeiro",
+        "Marshmellow",
+        "Chocolate Branco",
+        "Homer",
+        "Paçoca",
+        "Leite Ninho",
+        "Óreo",
+        "Nutela",
+        "Ovomaltine",
+        "Especial da Semana"
+      ],
+      "flavorsPrices": [
+        "10",
+        "10",
+        "10",
+        "10",
+        "10",
+        "10",
+        "10",
+        "10",
+        "10",
+        "10"
+      ],
+      "PricePixMoney": 72.00,
+      "Price": 73.00,
+      "img": "../fotos/24minis.jpeg"
+    },
+    {
+      "name": "30 Minis",
+      "description": "Os queridinhos mini donuts com 60g! Excelente opção caso queira experimentar vários sabores ou deixar sua festa mais adocicada! ♥",
+      "flavors": [
+        "Brigadeiro",
+        "Marshmellow",
+        "Chocolate Branco",
+        "Homer",
+        "Paçoca",
+        "Leite Ninho",
+        "Óreo",
+        "Nutela",
+        "Ovomaltine",
+        "Especial da Semana"
+      ],
+      "flavorsPrices": [
+        "10",
+        "10",
+        "10",
+        "10",
+        "10",
+        "10",
+        "10",
+        "10",
+        "10",
+        "10"
+      ],
+      "PricePixMoney": 90.00,
+      "Price": 91.00,
+      "img": "../fotos/30minis.jpeg"
+    },
+    {
+      "name": "36 Minis",
+      "description": "Os queridinhos mini donuts com 60g! Excelente opção caso queira experimentar vários sabores ou deixar sua festa mais adocicada! ♥",
+      "flavors": [
+        "Brigadeiro",
+        "Marshmellow",
+        "Chocolate Branco",
+        "Homer",
+        "Paçoca",
+        "Leite Ninho",
+        "Óreo",
+        "Nutela",
+        "Ovomaltine",
+        "Especial da Semana"
+      ],
+      "flavorsPrices": [
+        "10",
+        "10",
+        "10",
+        "10",
+        "10",
+        "10",
+        "10",
+        "10",
+        "10",
+        "10"
+      ],
+      "PricePixMoney": 108.00,
+      "Price": 109.00,
+      "img": "../fotos/36minis.jpeg"
+    }
+  ],
+  "DonutsTradicionais": [
+    {
+      "name": "3 Tradicionais",
+      "description": "Deliciosos donuts em tamanho tradicional, pesando a unidade 110g de puro amor! ♥",
+      "flavors": [
+        "Brigadeiro",
+        "Marshmellow",
+        "Chocolate Branco",
+        "Homer",
+        "Paçoca",
+        "Leite Ninho",
+        "Óreo",
+        "Nutela",
+        "Ovomaltine",
+        "Especial da Semana"
+      ],
+      "flavorsPrices": [
+        "10",
+        "10",
+        "10",
+        "10",
+        "10",
+        "10",
+        "10",
+        "10",
+        "10",
+        "10"
+      ],
+      "PricePixMoney": 15.00,
+      "Price": 16.00,
+      "img": "../fotos/3tradicionais.jpeg"
+    },
+    {
+      "name": "6 Tradicionais",
+      "description": "Deliciosos donuts em tamanho tradicional, pesando a unidade 110g de puro amor! ♥",
+      "flavors": [
+        "Brigadeiro",
+        "Marshmellow",
+        "Chocolate Branco",
+        "Homer",
+        "Paçoca",
+        "Leite Ninho",
+        "Óreo",
+        "Nutela",
+        "Ovomaltine",
+        "Especial da Semana"
+      ],
+      "flavorsPrices": [
+        "10",
+        "10",
+        "10",
+        "10",
+        "10",
+        "10",
+        "10",
+        "10",
+        "10",
+        "10"
+      ],
+      "PricePixMoney": 30.00,
+      "Price": 31.00,
+      "img": "../fotos/6tradicionais.jpeg"
+    },
+    {
+      "name": "9 Tradicionais",
+      "description": "Deliciosos donuts em tamanho tradicional, pesando a unidade 110g de puro amor! ♥",
+      "flavors": [
+        "Brigadeiro",
+        "Marshmellow",
+        "Chocolate Branco",
+        "Homer",
+        "Paçoca",
+        "Leite Ninho",
+        "Óreo",
+        "Nutela",
+        "Ovomaltine",
+        "Especial da Semana"
+      ],
+      "flavorsPrices": [
+        "10",
+        "10",
+        "10",
+        "10",
+        "10",
+        "10",
+        "10",
+        "10",
+        "10",
+        "10"
+      ],
+      "PricePixMoney": 45.00,
+      "Price": 46.00,
+      "img": "../fotos/9tradicionais.jpeg"
+    },
+    {
+      "name": "12 Tradicionais",
+      "description": "Deliciosos donuts em tamanho tradicional, pesando a unidade 110g de puro amor! ♥",
+      "flavors": [
+        "Brigadeiro",
+        "Marshmellow",
+        "Chocolate Branco",
+        "Homer",
+        "Paçoca",
+        "Leite Ninho",
+        "Óreo",
+        "Nutela",
+        "Ovomaltine",
+        "Especial da Semana"
+      ],
+      "flavorsPrices": [
+        "10",
+        "10",
+        "10",
+        "10",
+        "10",
+        "10",
+        "10",
+        "10",
+        "10",
+        "10"
+      ],
+      "PricePixMoney": 60.00,
+      "Price": 61.00,
+      "img": "../fotos/12tradicionais.jpeg"
+    },
+    {
+      "name": "15 Tradicionais",
+      "description": "Deliciosos donuts em tamanho tradicional, pesando a unidade 110g de puro amor! ♥",
+      "flavors": [
+        "Brigadeiro",
+        "Marshmellow",
+        "Chocolate Branco",
+        "Homer",
+        "Paçoca",
+        "Leite Ninho",
+        "Óreo",
+        "Nutela",
+        "Ovomaltine",
+        "Especial da Semana"
+      ],
+      "flavorsPrices": [
+        "10",
+        "10",
+        "10",
+        "10",
+        "10",
+        "10",
+        "10",
+        "10",
+        "10",
+        "10"
+      ],
+      "PricePixMoney": 75.00,
+      "Price": 76.00,
+      "img": "../fotos/15tradicionais.jpeg"
+    },
+    {
+      "name": "18 Tradicionais",
+      "description": "Deliciosos donuts em tamanho tradicional, pesando a unidade 110g de puro amor! ♥",
+      "flavors": [
+        "Brigadeiro",
+        "Marshmellow",
+        "Chocolate Branco",
+        "Homer",
+        "Paçoca",
+        "Leite Ninho",
+        "Óreo",
+        "Nutela",
+        "Ovomaltine",
+        "Especial da Semana"
+      ],
+      "flavorsPrices": [
+        "10",
+        "10",
+        "10",
+        "10",
+        "10",
+        "10",
+        "10",
+        "10",
+        "10",
+        "10"
+      ],
+      "PricePixMoney": 90.00,
+      "Price": 91.00,
+      "img": "../fotos/18tradicionais.jpeg"
+    }
+  ],
+  "DonutsEmLetras": [
+    {
+      "name": "3 a 6 Letras",
+      "description": "Personalize do seu jeito! Selecione a quantidade de donuts desejada e adicione nas observações quais serão as LETRAS, NÚMEROS, FLORES OU CORAÇÃO. (Disponíveis 3 sabores para essa opção). ♥",
+      "flavors": [
+        "Brigadeiro",
+        "Marshmellow",
+        "Chocolate Branco",
+        "Homer",
+        "Paçoca",
+        "Leite Ninho",
+        "Óreo",
+        "Nutela",
+        "Ovomaltine",
+        "Especial da Semana"
+      ],
+      "flavorsPrices": [
+        "10",
+        "10",
+        "10",
+        "10",
+        "10",
+        "10",
+        "10",
+        "10",
+        "10",
+        "10"
+      ],
+      "letters": [
+        "3 Letras",
+        "4 Letras",
+        "5 Letras",
+        "6 Letras"
+      ],
+      "lettersPrices": [
+        "16.50",
+        "22.00",
+        "27.50",
+        "33.00"
+      ],
+      "PricePixMoney": 16.50,
+      "Price": 17.50,
+      "img": "../fotos/3letras.jpeg"
+    },
+    {
+      "name": "7 a 10 Letras",
+      "description": "Personalize do seu jeito! Selecione a quantidade de donuts desejada e adicione nas observações quais serão as LETRAS, NÚMEROS, FLORES OU CORAÇÃO. (Disponíveis 7 sabores para essa opção) ♥",
+      "flavors": [
+        "Brigadeiro",
+        "Marshmellow",
+        "Chocolate Branco",
+        "Homer",
+        "Paçoca",
+        "Leite Ninho",
+        "Óreo",
+        "Nutela",
+        "Ovomaltine",
+        "Especial da Semana"
+      ],
+      "flavorsPrices": [
+        "10",
+        "10",
+        "10",
+        "10",
+        "10",
+        "10",
+        "10",
+        "10",
+        "10",
+        "10"
+      ],
+      "letters": [
+        "7 Letras",
+        "8 Letras",
+        "9 Letras",
+        "10 Letras"
+      ],
+      "lettersPrices": [
+        "38.50",
+        "44.00",
+        "49.50",
+        "55.00"
+      ],
+      "PricePixMoney": 38.50,
+      "Price": 39.50,
+      "img": "../fotos/7letras.jpeg"
+    },
+    {
+      "name": "11 a 15 letras",
+      "description": "Personalize do seu jeito! Selecione a quantidade de donuts desejada e adicione nas observações quais serão as LETRAS, NÚMEROS, FLORES OU CORAÇÃO. (Disponíveis 8 sabores para essa opção) ♥",
+      "flavors": [
+        "Brigadeiro",
+        "Marshmellow",
+        "Chocolate Branco",
+        "Homer",
+        "Paçoca",
+        "Leite Ninho",
+        "Óreo",
+        "Nutela",
+        "Ovomaltine",
+        "Especial da Semana"
+      ],
+      "flavorsPrices": [
+        "10",
+        "10",
+        "10",
+        "10",
+        "10",
+        "10",
+        "10",
+        "10",
+        "10",
+        "10"
+      ],
+      "letters": [
+        "11 Letras",
+        "12 Letras",
+        "13 Letras",
+        "14 Letras",
+        "15 Letras"
+      ],
+      "lettersPrices": [
+        "60.50",
+        "66.00",
+        "71.50",
+        "77.00",
+        "82.50"
+      ],
+      "PricePixMoney": 60.50,
+      "Price": 61.50,
+      "img": "../fotos/11letras.jpeg"
+    }
+  ]
 }

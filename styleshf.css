@@ -1,4 +1,33 @@
+<<<<<<< Updated upstream
 footer {
+=======
+@media only screen and (max-width: 665px) {
+    .footer {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    #menu ul li a {
+        display: none;
+    }
+    #menu ul li .fa-bars {
+        display: block;
+    }
+}
+
+@media only screen and (min-width: 665px) {
+    .footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    #menu ul li .fa-bars {
+        display: none;
+    }
+}
+
+.footer {
+>>>>>>> Stashed changes
     background-color: #303030;
     margin-bottom: 0;
     bottom: 0;
@@ -10,11 +39,37 @@ footer h4 {
     color: #ffd9af;
 }
 
+<<<<<<< Updated upstream
+=======
+.footer h5, h6 {
+    color: white
+}
+
+.footer i {
+    margin-right: 5px;
+}
+
+.footer ul {
+    list-style: none;
+}
+
+.footer ul li a {
+    text-decoration: none;
+    /* text-transform: uppercase; */
+    color: white;
+    /* font-size: large; */
+    font-family: Monteserrat, sans-serif;
+}
+
+.footer .rights {
+    background-color: red;
+}
+
+>>>>>>> Stashed changes
 #menu {
     padding: 0.3em;
     opacity: 0.7;
     background-color: pink;
-
 }
 
 #menu ul {
@@ -22,7 +77,6 @@ footer h4 {
     list-style: none;
     justify-content: space-around;
     align-items: center;
-
 }
 #menu img {
     width: 4em;
@@ -37,5 +91,9 @@ footer h4 {
 }
 
 #menu ul li a:hover {
+<<<<<<< Updated upstream
     color:white;
+=======
+    color: white;
+>>>>>>> Stashed changes
 }
