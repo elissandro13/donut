@@ -1,5 +1,4 @@
-//const requestURL = 'https://raw.githubusercontent.com/elissandro13/donut/main/cardapio/cardapio.Json';
-const requestURL = './cardapio.json';
+const requestURL = 'https://raw.githubusercontent.com/elissandro13/donut/main/cardapio/cardapio.Json';
 const request = new XMLHttpRequest();
 request.open('GET', requestURL, true);
 request.responseType = 'json';
