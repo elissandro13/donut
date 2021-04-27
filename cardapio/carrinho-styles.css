@@ -27,16 +27,7 @@ h2 {
 p {
     text-align: center;
     font-family: 'Lobster';
-}
-
-fieldset {
-    position: relative;
-}
-
-legend {
-    position: absolute;
-    bottom: 0;
-    right: 0;
+    font-size: 20px;
 }
 
 .banner {
@@ -44,7 +35,7 @@ legend {
     display: inline-table;
     max-width: 1000px;
     padding: 20px;
-    margin: 30px;
+    margin: 30px 20px;
     background-color: #FEDBDB;
     box-shadow: 3px 3px 3px rgba(0, 0, 0, .1);
     overflow: hidden;
@@ -53,22 +44,19 @@ legend {
 
 .product-photo {
     border-radius: 25px;
-    width: 50%;
+    width: 100%;
     height: 300px;
     margin-right: 15px;
     object-fit: cover;
     object-position: center;
 }
 
-.product-photo:hover {
-    cursor: zoom-in;
-}
-
-.opcoes {
+#imagemfundo {
     text-align: center;
+    height: 100%;
 }
 
-.botaoCarrinho {
+button {
     /* background-color: pink;
         border-radius: 30%;
         font-size: 16px;
@@ -82,26 +70,7 @@ legend {
     padding: 15px 20px 14px;
     text-decoration: none;
     text-transform: uppercase;
+    text-align: center;
     margin-top: 10px;
-    margin: auto;
     transition: all 0.2s ease;
 }
-
-#caixaOpcoes {
-    margin: auto;
-    width: 50%;
-    border: 3px solid pink;
-    border-radius: 25px;
-    padding: 10px;
-}
-
-#banner-produto {
-    text-align: center;
-}
-
-/*
-#imagemfundo {
-    background-image: url("../fotos/background.jpg");
-    background-size: auto;
-    background-position: center;
-}*/
