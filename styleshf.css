@@ -1,3 +1,16 @@
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+header {
+    height: 84%;
+}
+
+footer {
+    height: 17%;
+}
+
 @media only screen and (max-width: 665px) {
     .footer {
         display: flex;
@@ -21,14 +34,13 @@
     #menu ul li .fa-bars {
         display: none;
     }
-
 }
 
 .footer {
     background-color: #303030;
     margin-bottom: 0;
     bottom: 0;
-    position: absolute;
+    position: relative;
     width: 100%;
     padding: 10px;
 }

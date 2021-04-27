@@ -13,14 +13,21 @@ function numberToReal(value) {
 function retornaOpcaoLetters(opcao, preco) {
     document.getElementById("campoOpcoesLetters").innerHTML += `
     <label>${opcao}</label>
-    <input type = "radio" name = "radioletter" value = "${preco}" required><h4 class = "precoNoInput">${numberToReal(preco)}</h4><br>
+    <input type = "radio" name = "radioletter" value = "${opcao},${preco}" required><h4 class = "precoNoInput">${numberToReal(preco)}</h4><br>
   `
 }
 
 function retornaOpcaoFlavors(opcao, preco) {
     document.getElementById("campoOpcoesFlavors").innerHTML += `
     <label>${opcao}</label>
-    <input type = "radio" name = "radioflavor" value = "${preco}" required><h4 class = "precoNoInput">${numberToReal(preco)}</h4><br>
+    <input type = "radio" name = "radioflavor" value = "${opcao},${preco}" required><h4 class = "precoNoInput">${numberToReal(preco)}</h4><br>
+  `
+}
+
+function retornaCheckboxFlavors(opcao) {
+    document.getElementById("campoOpcoesFlavors").innerHTML += `
+    <label>${opcao}</label>
+    <input type = "checkbox" name = "checkboxflavor[]" value = "${opcao}"><br>
   `
 }
 
@@ -44,26 +51,67 @@ function caixaOpcoes(produto) {
 
     document.getElementById("opcoes-obrigatorias").innerHTML = `
     <div id = "caixaOpcoes">
-    <form name = "montagemDonut" action = "carrinho.php" method="get">
-        <fieldset id = "campoOpcoesFlavors">
+    <form name = "montagemDonut" id = "formularioMontagem" action = "carrinho.php" method="post">
         <div class="info"><strong class="title">Escolha 1 opção</strong></div>
-        </fieldset>
         <fieldset id = "campoOpcoesLetters">
         </fieldset>
-        <input type = "submit" value = "Acrescentar ao carrinho">  
+        <fieldset id = "campoOpcoesFlavors">
+        </fieldset>
+        <input type=hidden name=name value="${produto.name}">
+        <input type=hidden name=description value="${produto.description}">
+        <input type=hidden name=img value="${produto.img}">
+        <input class = "botaoCarrinho" type = "submit" value = "Acrescentar ao carrinho">  
     </form>
     </div>
 `
-    for (var i = 0; i < flavors.length; i++) {
-        retornaOpcaoFlavors(flavors[i], flavorsPrices[i]);
-    }
 
     if (produto.letters != "undefined") {
-        document.getElementById("campoOpcoesLetters").innerHTML += `<div class="info"><strong class="title">Escolha 1 opção</strong></div>`
+        document.getElementById("campoOpcoesFlavors").innerHTML += `<div class="info"><strong class="title">Escolha até x opções</strong></div>`
         const letters = produto.letters.split(',');
         const lettersPrices = produto.lettersPrices.split(',');
         for (var i = 0; i < letters.length; i++) {
             retornaOpcaoLetters(letters[i], lettersPrices[i]);
+        }
+        for (var i = 0; i < flavors.length; i++) {
+            retornaCheckboxFlavors(flavors[i], flavorsPrices[i]);
+        }
+
+        (function () {
+            const form = document.querySelector('#formularioMontagem');
+            const checkboxes = form.querySelectorAll('input[type=checkbox]');
+            const checkboxLength = checkboxes.length;
+            const firstCheckbox = checkboxLength > 0 ? checkboxes[0] : null;
+
+            function init() {
+                if (firstCheckbox) {
+                    for (let i = 0; i < checkboxLength; i++) {
+                        checkboxes[i].addEventListener('change', checkValidity);
+                    }
+
+                    checkValidity();
+                }
+            }
+
+            function isChecked() {
+                for (let i = 0; i < checkboxLength; i++) {
+                    if (checkboxes[i].checked) return true;
+                }
+
+                return false;
+            }
+
+            function checkValidity() {
+                const errorMessage = !isChecked() ? 'Escolha pelo menos um sabor' : '';
+                firstCheckbox.setCustomValidity(errorMessage);
+            }
+
+            init();
+        })();
+
+
+    } else {
+        for (var i = 0; i < flavors.length; i++) {
+            retornaOpcaoFlavors(flavors[i], flavorsPrices[i]);
         }
     }
 
